@@ -1,3 +1,13 @@
 # PARN
 
 PARN, a coarse-to-fine medical volume registration algorithm based on deep learning, is the source code of the article "Unsupervised multimodal abdominal tumor registration based on prototype alignment".
+
+The model was built on Python 3.10 and PyTorch 1.12. The necessary tools for running the model have been uploaded. The remaining environment dependencies can be installed via "pip install".
+
+# Citation Information
+
+Title: Unsupervised multimodal abdominal tumor registration based on prototype alignment
+
+Abstract: In order to accurately diagnose renal tumors, it is necessary to simultaneously analyze the corticomedullary phase and nephrographic phase of contrast-enhanced CT and T1-weighted MRI. Therefore, cross-phase and multimodal registration of abdominal images is required in practical applications. Current registration studies mainly focus on the overall abdominal images, with limited attention given to heterogeneous and irregularly shaped tumors. This paper proposes a multimodal fine-registration algorithm for abdominal tumor registration. In the proposed method, a prototype feature is assigned to each modality to store its stylistic characteristics, and a prototype loss is designed to encourage the encoder to extract modality-specific stylistic features from the images. The modality consistency loss enables the model to adaptively transform the modality of the moving image based on the fixed image. As for fine registration, an affine registration module is used to roughly locate the tumor, and then a fine registration module is used to align the tumor boundary precisely. In experiments, the proposed method is compared with the current fine registration algorithm and multimodal registration algorithm on an abdominal image dataset with renal tumor annotations. The experimental results demonstrate that the proposed method has better performance in registering tumors. Furthermore, comparative results with competing algorithms on the CHAOS dataset validate the effectiveness of the proposed method in abdominal organ registration.
+
+Cite this article: Kanqi Wang, Lianting Zhong, Jiayi Wei, Xiaowei Lu, Ying Wang, Yuqing Ding, Yang Zhao, Gang Liu, Jianjun Zhou, Unsupervised multimodal abdominal tumor registration based on prototype alignment, Biomedical Signal Processing and Control, Volume 97, 2024, 106672, ISSN 1746-8094, https://doi.org/10.1016/j.bspc.2024.106672.
